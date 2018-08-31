@@ -1,0 +1,79 @@
+#header {
+    height: 100px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 54px;
+    margin-top: 50px;
+}
+
+#menu{
+    background-color:#F5D02C;
+    text-align:center;
+    padding:10px;
+}
+
+#menu ol {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    font-size:18px;
+    height:35px;
+    line-height:200%;
+    display: inline-block;
+}
+
+#menu ol a {
+    color:#ffffff;
+    text-decoration:none;
+    display: block;
+    padding:5px;
+}
+
+#menu ol > li {
+    float: left;
+    width: 150px;
+    height:40px;
+    border-right: 1px dashed #606060;
+}
+
+#menu ol > li:first-child {
+    border-left:1px dashed #606060;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+}
+
+#h1{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#productList table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    background-color: #2a2620;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer p {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 16px;
+    margin: 0;
+}
+
+#addProduct {
+    background-color: #F5D02C;
+    text-align: center;
+}
+#addProduct p{
+    color:#ffffff;
+    font-size: 20px;
+}
